@@ -277,6 +277,7 @@
 				TargetAttributes = {
 					249B41311B6C960B00870EFF = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = DFS5TV54FJ;
 					};
 					249B414A1B6C960B00870EFF = {
 						CreatedOnToolsVersion = 6.4;
@@ -289,6 +290,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -467,9 +469,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DFS5TV54FJ;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = OperationQueues/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.magicbox.OperationQueues;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -478,9 +482,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DFS5TV54FJ;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = OperationQueues/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.magicbox.OperationQueues;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

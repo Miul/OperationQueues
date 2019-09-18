@@ -16,7 +16,7 @@
     if (operation.isCancelled) {
         ranIt = YES;
     } else if (operation.isReady) {
-        if (!operation.isConcurrent) {
+        if (operation.isConcurrent) {
             [operation start];
         } else {
             [NSThread detachNewThreadSelector:@selector(start) toTarget:operation withObject:nil];
